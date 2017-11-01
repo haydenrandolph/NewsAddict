@@ -1,0 +1,34 @@
+{
+  "name": "hdd-newsaddict",
+  "version": "1.0.0",
+  "description": "News discussion site in an open forum so that EVERYONE can have a voice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealtimetourist/HDD-NewsAddict.git"
+  },
+  "author": "Hayden Randolph, Douglas J. Coke and Don Bedwell (HDD)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therealtimetourist/HDD-NewsAddict/issues"
+  },
+  "homepage": "https://github.com/therealtimetourist/HDD-NewsAddict#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^2.0.1",
+    "fs": "0.0.1-security",
+    "method-override": "^2.3.9",
+    "mysql": "^2.14.1",
+    "path": "^0.12.7",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
+  }
+}
